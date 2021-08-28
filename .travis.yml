@@ -2,4 +2,4 @@ language: java
 jdk:
   - openjdk11
 before_install:
-  - chmod +x mvnw
+  mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
