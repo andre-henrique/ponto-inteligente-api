@@ -1,6 +1,4 @@
 language: java
-jdk: 
-  - oraclejdk15
 script: ant main  
 before_install:
   - chmod +x mvnw
